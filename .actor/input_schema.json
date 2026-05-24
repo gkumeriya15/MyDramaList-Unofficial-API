@@ -1,21 +1,20 @@
 {
-    "title": "Input schema of the mydramalis-api",
-    "type": "object",
-    "schemaVersion": 1,
-    "properties": {
-        "query": {
-            "title": "Drama Search Query",
-            "type": "string",
-            "description": "Drama title to search on MyDramaList.",
-            "default": "Squid Game",
-            "editor": "textinput"
-        },
-        "maxResults": {
-            "title": "Maximum Results",
-            "type": "integer",
-            "description": "Maximum number of search results.",
-            "default": 20,
-            "editor": "number"
-        }
+  "title": "Input schema of the mydramalis-api",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "query": {
+      "title": "Drama Search Query",
+      "type": "string",
+      "description": "Drama title to search on MyDramaList.",
+      "default": "Squid Game",
+      "editor": "textfield"
+    },
+    "maxResults": {
+      "title": "Maximum Results",
+      "type": "integer",
+      "description": "Maximum number of search results.",
+      "default": 20
     }
+  }
 }

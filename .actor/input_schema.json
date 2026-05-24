@@ -7,13 +7,15 @@
             "title": "Drama Search Query",
             "type": "string",
             "description": "Drama title to search on MyDramaList.",
-            "default": "Squid Game"
+            "default": "Squid Game",
+            "editor": "textinput"
         },
         "maxResults": {
             "title": "Maximum Results",
             "type": "integer",
             "description": "Maximum number of search results.",
-            "default": 20
+            "default": 20,
+            "editor": "number"
         }
     }
 }
